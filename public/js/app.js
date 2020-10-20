@@ -2128,7 +2128,7 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
       todos: [],
       csrf: document.querySelector('meta[name="csrf-token"]').getAttribute('content'),
       userId: document.querySelector('meta[name="user"]').getAttribute('content'),
-      serverAdress: 'http://192.168.8.161:8000'
+      serverAdress: 'http://127.0.0.1:8000'
     };
   },
   methods: {
@@ -51572,8 +51572,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/karp/Dokumenty/minetodo/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /home/karp/Dokumenty/minetodo/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /home/karp/naciągane_portfolio/minetodo/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /home/karp/naciągane_portfolio/minetodo/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

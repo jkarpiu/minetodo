@@ -21,7 +21,7 @@ export default {
             todos: [],
             csrf: document.querySelector('meta[name="csrf-token"]').getAttribute('content'),
             userId: document.querySelector('meta[name="user"]').getAttribute('content'),
-            serverAdress: 'http://192.168.8.161:8000'
+            serverAdress: 'http://127.0.0.1:8000'
         }
     },
     methods: {
